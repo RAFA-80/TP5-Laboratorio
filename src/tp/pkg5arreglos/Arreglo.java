@@ -16,7 +16,6 @@ public class Arreglo {
 
         System.out.println("La suma de los numeros dentro del arreglo es: " + suma);
         System.out.println("El promedio de los numeros dentro del arreglo es: " + promedio);
-        System.out.println("");
     }
 
     public static void buscarMayor(int a[][]) {

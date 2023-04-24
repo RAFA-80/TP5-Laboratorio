@@ -17,13 +17,16 @@ public class PruebaArreglo {
         //Arreglo bidimensional
         int[][] arrayBi = {{2, 5, 116, 55, 38}, {281, 82, 7}, {23, 1, 67, 100}};
         
-        //Suma los numeros dentro del arreglo, luego saca el promedio.
+        System.out.println("[Sumar los numeros dentro del arreglo, luego sacar el promedio.]");
         Arreglo.sumarLista(array);
-        //Busca el numero mayor dentro del arreglo.
+        
+        System.out.println("[Buscar el numero mayor dentro del arreglo.]");
         Arreglo.buscarMayor(arrayBi);
-        //Recibe una cadena y cuenta las vocales que hay dentro de esa cadena.
+        
+        System.out.println("[Contar las vocales que hay dentro de una cadena.]");
         Arreglo.cuentaVocales("Hola Estoy con java");
-        //Recibe una cadena y un cracter, cuenta las veces que esta repetido el caracter dentro de la cadena.
+        
+        System.out.println("[Contar las veces que esta repetido un caracter dentro de la cadena.]");
         Arreglo.cuentaCaracter("Estoy contando caracteres", 's');
 
     }
